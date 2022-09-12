@@ -91,3 +91,15 @@ The following dataset is the only dataset you need to be able to serve on the AP
       }
     ]
   }`
+
+
+## Solution Steps.
+
+1. Clone Repo
+2. Composer install
+3. set database name in .env file (mysql) 
+4. php artisan migrate --seed
+5. Endpoint /api/products
+6. For category filter /api/product?category=insurance
+7. For price filter /api/product?price=150000
+8. For sku filter /api/product?sku=000003
